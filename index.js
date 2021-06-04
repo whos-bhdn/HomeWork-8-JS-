@@ -22,7 +22,7 @@
 
 // let email = prompt('Enter e-mail');
 
-// if (email.indexOf('@') != -1 && email[0] != ('@')){
+// if (email.includes('@') && email.startsWith('@') == false && email.endsWith('@') == false){
 //    alert('You`re wellcome');
 // } else {
 //    alert('Wrong e-mail')
